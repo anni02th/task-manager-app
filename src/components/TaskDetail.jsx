@@ -31,7 +31,7 @@ const TaskDetail = ({ task, onClose, onDelete, onUpdateTask }) => {
     };
 
     return (
-        <div className="bg-white p-4 rounded-lg shadow-lg">
+        <div className="bg-white p-4 rounded-lg w-full shadow-lg md:w-fit">
             <h3 className="text-lg font-semibold mb-2">Task Details</h3>
             <p className="text-gray-800 mb-4">{task.text}</p>
 

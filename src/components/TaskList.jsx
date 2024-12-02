@@ -14,7 +14,7 @@ const TaskList = ({ tasks, onAddTask, onDeleteTask, onToggleTaskCompletion, onSe
 
     return (
         <>
-            <div className="flex justify-between gap-4 mb-4">
+            <div className="flex justify-between gap-4 mb-4 flex-wrap">
                 {/* Task Input */}
                 <input
                     type="text"
